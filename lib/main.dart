@@ -10,6 +10,17 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: AppHome());
+    final colorScheme = ColorScheme.fromSeed(
+      brightness: Brightness.light,
+      seedColor: Colors.deepPurple,
+    );
+
+    return MaterialApp(
+      theme: ThemeData(
+        colorScheme: colorScheme,
+        appBarTheme: AppBarTheme(backgroundColor: colorScheme.primary),
+      ),
+      home: AppHome(),
+    );
   }
 }
