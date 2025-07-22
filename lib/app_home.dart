@@ -15,13 +15,14 @@ class _AppHomeState extends State<AppHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(title: Text('MyGallery'), centerTitle: true),
       bottomNavigationBar: NavigationBar(
         onDestinationSelected: (int index) {
           setState(() {
             currentIndex = index;
           });
         },
+        selectedIndex: currentIndex,
         destinations: <Widget>[
           NavigationDestination(icon: Icon(Icons.image), label: 'Bilder'),
           NavigationDestination(icon: Icon(Icons.person), label: 'Über mich'),

@@ -12,11 +12,28 @@ class GalleryCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      child: Column(
-        children: [
-          Image(image: galleryImage),
-          Text(cardTitle),
-        ],
+      child: Card(
+        clipBehavior: Clip.antiAlias,
+        child: Column(
+          children: [
+            Flexible(
+              flex: 8,
+              child: SizedBox.expand(
+                child: Image(
+                  image: galleryImage,
+                  fit: BoxFit.cover,
+                  width: double.infinity,
+                ),
+              ),
+            ),
+            Flexible(
+              flex: 2,
+              child: Center(
+                child: Text(cardTitle, textAlign: TextAlign.center),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

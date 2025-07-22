@@ -8,6 +8,9 @@ class Gallery extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GridView.count(
+      padding: EdgeInsets.all(12),
+      mainAxisSpacing: 8,
+      crossAxisSpacing: 8,
       crossAxisCount: 2,
       children: [
         ...galleryData.map((item) {
