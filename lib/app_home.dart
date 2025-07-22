@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:image_gallery/gallery_screen.dart';
 
 class AppHome extends StatefulWidget {
   const AppHome({super.key});
@@ -9,7 +10,7 @@ class AppHome extends StatefulWidget {
 
 class _AppHomeState extends State<AppHome> {
   int currentIndex = 0;
-  List<Widget> screens = [];
+  List<Widget> screens = [Gallery(), Placeholder()];
 
   @override
   Widget build(BuildContext context) {

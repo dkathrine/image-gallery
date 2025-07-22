@@ -15,7 +15,7 @@ class GalleryCard extends StatelessWidget {
       child: Column(
         children: [
           Image(image: galleryImage),
-          Container(child: Text(cardTitle)),
+          Text(cardTitle),
         ],
       ),
     );
