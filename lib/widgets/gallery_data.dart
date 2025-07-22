@@ -1,4 +1,4 @@
-import 'package:image_gallery/gallery_item.dart';
+import 'package:image_gallery/widgets/gallery_item.dart';
 
 List<GalleryItem> galleryData = [
   GalleryItem(
