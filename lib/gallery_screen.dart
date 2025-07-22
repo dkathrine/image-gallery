@@ -17,6 +17,8 @@ class Gallery extends StatelessWidget {
           return GalleryCard(
             galleryImage: AssetImage(item.imagePath),
             cardTitle: item.imageTitle,
+            cardDesc: item.imageDescription,
+            cardDate: item.imageDate,
           );
         }),
       ],
