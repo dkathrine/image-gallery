@@ -20,7 +20,7 @@ class MainApp extends StatelessWidget {
         colorScheme: colorScheme,
         appBarTheme: AppBarTheme(
           backgroundColor: Colors.deepPurple,
-          titleTextStyle: TextStyle(fontSize: 22, color: Colors.white),
+          titleTextStyle: TextStyle(fontSize: 22, color: colorScheme.onPrimary),
         ),
       ),
       home: AppHome(),
