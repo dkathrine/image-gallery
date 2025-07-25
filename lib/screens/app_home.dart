@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:image_gallery/gallery_screen.dart';
-import 'package:image_gallery/about_me_screen.dart';
+import 'package:image_gallery/screens/gallery_screen.dart';
+import 'package:image_gallery/screens/about_me_screen.dart';
 
 class AppHome extends StatefulWidget {
   const AppHome({super.key});

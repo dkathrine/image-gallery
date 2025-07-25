@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:image_gallery/widgets/gallery_data.dart';
-import 'package:image_gallery/widgets/gallery_card.dart';
+import 'package:image_gallery/screens/gallery_data.dart';
+import 'package:image_gallery/screens/gallery_card.dart';
 
 class Gallery extends StatelessWidget {
   const Gallery({super.key});
