@@ -1,3 +1,5 @@
 # image_gallery
 
-A new Flutter project.
+## Demo
+
+![CLI Password Manager Demo](assets/demo.gif)
