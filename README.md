@@ -2,4 +2,4 @@
 
 ## Demo
 
-![CLI Password Manager Demo](assets/demo.gif)
+![Image Gallery Demo](assets/demo.gif)
